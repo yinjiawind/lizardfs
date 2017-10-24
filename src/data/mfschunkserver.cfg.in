@@ -119,7 +119,7 @@
 ## or in the newer interleaved format
 ##    ([<checksum> <data block>]*).
 ## (Default: 1), i.e. new chunks are created in MooseFS format.
-# CREATE_NEW_CHUNKS_IN_MOOSEFS_FORMAT = 1
+CREATE_NEW_CHUNKS_IN_MOOSEFS_FORMAT = 0
 
 ## Call fsync() after a chunk is modified
 ## (Default: 1), i.e. enabled.
